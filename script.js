@@ -44,7 +44,7 @@ fetch("https://deezerdevs-deezer.p.rapidapi.com/search?q=daft punk", options)
   .then((response) => console.log(response))
   .catch((err) => console.error(err));
 
-function displayTitle(data2) 
+function displayTitle(data2) {
   const mainDiv = document.querySelector("#body");
   for (i = 0; i < 2; i++) {
     let cardDiv = document.createElement("div");
